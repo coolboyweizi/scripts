@@ -1,0 +1,2 @@
+zabbix 监控db的状态，和写入。mysql支持server/client
+checkList 与 check_server搭配。避免密码暴露在zabbix-web
