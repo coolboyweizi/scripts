@@ -7,7 +7,8 @@ import sys
 import os
 import datetime
 
-reload(sys)
+from eventListen.sendMessage import send_msg
+
 sys.setdefaultencoding('utf-8')
 
 data = {}
@@ -35,7 +36,7 @@ def write_stderr(s):
 def main():
 
     if not 'SUPERVISOR_SERVER_URL' in os.environ:
-        print "%s must be run as a supervisor listener." % sys.argv[0]
+        print ("%s must be run as a supervisor listener." % sys.argv[0])
         return
 
     while True:

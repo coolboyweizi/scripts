@@ -2,12 +2,10 @@
 # coding:utf-8
 
 import sys
-reload(sys)
 sys.setdefaultencoding('utf-8')
 
 import requests
 import json
-
 
 
 CORPID      = 'wx7ad7d1c3e3e5d30c'

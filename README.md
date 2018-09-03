@@ -1,5 +1,9 @@
-<pre>
-eventListen: zabbix 事件监控
-shell:  常用的shell脚本。包括数据库备份
-zabbix: 额外添加的zabbix监控
-</pre>
+##eventListen
+
+supervisord事件监控，微信报警
+
+##zabbix
+若干zabbix额外主动监控模块
+
+##shell
+mysql备份，mongo备份
